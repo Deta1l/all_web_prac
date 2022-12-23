@@ -6,7 +6,7 @@
   background: rgb(182, 172, 174);
   color: #fff;
   font-family: Arial;
-  padding: 18px;
+  padding: 1vh;
   box-shadow: 4px 4px 7px #4f4f4f;
 }
 body{
@@ -24,4 +24,30 @@ body{
   text-align: center;
   font-size: 5rem;
   margin-top: 5px;
+}
+.info{
+  margin-left: 5vh;
+  margin-top: 3vh;
+  padding: 1vh;
+  width: 45vw;
+  height: 50vh;
+  border-radius: 20px;
+  background: rgba(219, 189, 189, 0.59);
+}
+.info h4{
+  text-align: left;
+  font-size: 2rem;
+  margin-top: 5px;
+}
+.footer{
+  margin-left: 5vh;
+  margin-top: 3vh;
+  padding: 1vh;
+  width: 85vw;
+  height: 15vh;
+  border-radius: 20px;
+  background: rgba(219, 189, 189, 0.59);
+}
+.photo{
+  
 }
