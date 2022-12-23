@@ -20,16 +20,30 @@ body{
   border-radius: 20px;
   background: rgba(219, 189, 189, 0.59);
 }
+.centr {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 1vw;
+  padding-right: 3vw;
+  padding-left: 3vw;
+}
 .header h1{
   text-align: center;
   font-size: 5rem;
   margin-top: 5px;
 }
 .info{
-  margin-left: 5vh;
-  margin-top: 3vh;
   padding: 1vh;
-  width: 45vw;
+  width: 50vw;
+  height: 50vh;
+  border-radius: 20px;
+  background: rgba(219, 189, 189, 0.59);
+}
+.photo{
+  margin-left: 5vh;
+  padding: 1vh;
+  width: 30vw;
   height: 50vh;
   border-radius: 20px;
   background: rgba(219, 189, 189, 0.59);
@@ -40,14 +54,11 @@ body{
   margin-top: 5px;
 }
 .footer{
+  margin-top: 2vh;
   margin-left: 5vh;
-  margin-top: 3vh;
   padding: 1vh;
   width: 85vw;
   height: 15vh;
   border-radius: 20px;
   background: rgba(219, 189, 189, 0.59);
-}
-.photo{
-  
 }
