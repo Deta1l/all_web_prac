@@ -48,6 +48,13 @@ body{
   border-radius: 20px;
   background: rgba(219, 189, 189, 0.59);
 }
+.my_photo{
+  max-width:30vw;
+  max-height:50vh;
+  width: auto;
+  height: auto;
+  border-radius: 20px;
+}
 .info h4{
   text-align: left;
   font-size: 2rem;
