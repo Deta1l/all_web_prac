@@ -11,8 +11,12 @@
 }
 body{
   background: linear-gradient(90deg, #bad8ee, #c8c5e8);
+  min-width: device-width;
 }
 .header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 1vh auto;
   padding: 1vh;
   width: 85vw;
@@ -28,12 +32,13 @@ body{
   margin: 1vh auto;
 }
 .header h1{
-  text-align: center;
-  font-size: 5rem;
+  margin: 1vh auto;
+  font-size: calc(20px + 2vw);;
   margin-top: 5px;
 }
 .info{
   margin: auto;
+  overflow-x:hidden;
   padding: 1vh;
   width: 50vw;
   height: 50vh;
@@ -41,6 +46,9 @@ body{
   background: rgba(219, 189, 189, 0.59);
 }
 .photo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: auto;
   padding: 1vh;
   width: 30vw;
@@ -57,7 +65,7 @@ body{
 }
 .info h4{
   text-align: left;
-  font-size: 2rem;
+  font-size: calc(10px + 1vw);;
   margin-top: 5px;
 }
 .footer{
