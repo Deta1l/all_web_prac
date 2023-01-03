@@ -25,7 +25,7 @@ body{
 .centr {
   width: 90vw;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-start;
   margin: 1vh auto;
 }
@@ -49,10 +49,37 @@ body{
   margin-top: 5px;
 }
 .footer{
-  margin: 1vh auto;
-  padding: 1vh;
-  width: 85vw;
-  height: 15vh;
-  border-radius: 20px;
+  display: flex;
+  min-height: 20vh;
+  height: auto;
+  width: 100%;
   background: rgba(107, 122, 128, 1);
+}
+/* ================================================Scroll============================================ */
+
+::-webkit-scrollbar-button {
+  background-image:url('');
+  background-repeat:no-repeat;
+  width:4px;
+  height:0px;
+
+}
+
+::-webkit-scrollbar-track {
+  background-color:#d0d0d0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-Gradient(35deg,#a6a6a6, #747474);
+}
+
+::-webkit-resizer{
+  background-image:url('');
+  background-repeat:no-repeat;
+  width:6px;
+  height:0px;
+}
+
+::-webkit-scrollbar{
+  width: 12px;
 }
