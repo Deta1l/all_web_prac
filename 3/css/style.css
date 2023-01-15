@@ -24,6 +24,8 @@ body{
 }
 .centr {
   width: 90vw;
+  justify-content: center;
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -31,8 +33,15 @@ body{
 }
 .header h1{
   margin: 1vh auto;
-  font-size: calc(20px + 2vw);;
+  font-size: calc(20px + 2vw);
   margin-top: 5px;
+}
+.footer h5{
+  text-align: center;
+  font-size: calc(5px + 2vw);
+  border: 1vh;
+  margin: 5%;
+  width: 100%;
 }
 .info{
   display: flex;
@@ -40,18 +49,28 @@ body{
   margin: 2vh ;
   overflow-x:hidden;
   padding: 1vh;
-  width: 85vw;
-  height: 50vh;
+  width: 75vw;
+  height: 40vh;
   border-radius: 20px;
   background: rgba(107, 122, 128, 1);
+}
+.full-news{
+  width: 30%vw;
+}
+.data_info{
+  display: flex;
+  flex-direction: column;
+  border: 2vh;
+  margin: 10%;
+  width: 30%;
+  height: 10%
 }
 .data h4{
   border: 2vh;
   margin: 10%;
-  margin-top: 80%;
 }
-.full-news{
-
+.text1{
+  width: 60vw;
 }
 .text1 h4{
   text-align: left;
